@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
+  title: "About | Aji Prasetyo",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Aji Prasetyo adalah seorang Software Engineer yang memiliki hasrat dalam mengembangkan aplikasi web dan mobile. Dengan pengalaman lebih dari 5 tahun di industri teknologi, Aji telah berkontribusi pada berbagai proyek yang mencakup e-commerce, fintech, dan platform sosial. Keahliannya meliputi pengembangan front-end dan back-end, serta pemahaman mendalam tentang desain UI/UX. Selain itu, Aji juga aktif berbagi pengetahuan melalui blog dan komunitas developer, serta gemar menjelajahi alam sebagai bentuk keseimbangan hidup.",
 };
 
 export default function AboutPage() {

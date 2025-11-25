@@ -71,47 +71,35 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
+          Hai, saya Aji Prasetyo — seorang developer yang suka mengeksplorasi teknologi, 
+          pecinta alam yang menemukan ketenangan di antara pepohonan dan gunung, 
+          serta pembaca buku yang selalu haus akan cerita dan pengetahuan baru. 
+          Selamat datang di ruang digital saya!
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
+          Sejak awal, saya tertarik dengan bagaimana baris-baris kode bisa berubah menjadi sesuatu yang nyata dan berguna. 
+          Membangun aplikasi, menyelesaikan masalah teknis, dan melihat ide berkembang menjadi sebuah produk — 
+          itu hal yang selalu membuat saya semangat sebagai developer.
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+          Namun hidup saya tidak hanya tentang layar monitor dan baris kode. Ketika butuh jeda, saya beralih ke alam. 
+          Mendaki, berkemah, atau sekadar berkeliling menikmati udara segar membantu saya kembali jernih dan penuh energi. 
+          Di alam, saya belajar tentang kesederhanaan, keseimbangan, dan ritme yang tidak bisa diajarkan oleh buku teks atau framework apa pun.
         </Paragraph>
         <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+          Berbicara soal buku, membaca adalah teman lama saya. Dari buku-buku teknologi dan psikologi, 
+          sampai novel fiksi yang membawa saya ke dunia baru — setiap halaman memberi perspektif baru dan 
+          membantu saya menjadi pribadi yang lebih reflektif dan dewasa.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
+          Lewat tempat ini, saya ingin berbagi sudut pandang, pengalaman, dan karya saya. 
+          Jika kamu seorang developer, penikmat alam, pembaca buku… 
+          atau seseorang yang menemukan kebahagiaan dalam perpaduan ketiganya — 
+          di sini kita punya banyak hal untuk dibahas.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
-        </Paragraph>
-        <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+          Terima kasih sudah mampir.
         </Paragraph>
       </div>
     </div>

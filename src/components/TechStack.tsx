@@ -24,12 +24,6 @@ export const TechStack = () => {
       className: "h-10 w-8",
     },
     {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
-
-      className: "h-10 w-10",
-    },
-    {
       title: "Node",
       src: "/images/logos/node.png",
 
@@ -46,6 +40,30 @@ export const TechStack = () => {
       src: "/images/logos/vercel.png",
 
       className: "h-10 w-24",
+    },
+    {
+      title: "Laravel",
+      src: "/images/logos/laravel.png",
+
+      className: "h-10 w-20",
+    },
+    {
+      title: "Vue",
+      src: "/images/logos/vue.png",
+
+      className: "h-10 w-8",
+    },
+    {
+      title: "ExpressJs",
+      src: "/images/logos/expressjs.png",
+
+      className: "h-10 w-8",
+    },
+    {
+      title: "Python",
+      src: "/images/logos/python.png",
+
+      className: "h-10 w-8",
     },
   ];
   return (

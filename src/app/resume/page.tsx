@@ -12,9 +12,8 @@ export default function Home() {
       <span className="text-4xl">💼</span>
       <Heading className="font-black">Work History</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+        Saya adalah seorang{" "} <Highlight>Full-Stack Developer</Highlight> 
+        dengan pengalaman profesional selama kurang lebih <Highlight>7 tahun</Highlight> di bidang pengembangan aplikasi web.
       </Paragraph>
       <WorkHistory />
     </Container>

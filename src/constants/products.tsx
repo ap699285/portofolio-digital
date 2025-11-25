@@ -1,130 +1,164 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import regarmarket from "public/images/project/regarmarket.png";
+import regarmarket2 from "public/images/project/regarmarket2.png";
+import tisb from "public/images/project/tisb.png";
+import tisb2 from "public/images/project/tisb2.png";
+import regarcareer from "public/images/project/regarcareer.png";
+import regarcareer2 from "public/images/project/regarcareer.png";
+import pointix from "public/images/project/pointix.png";
+import pointix2 from "public/images/project/pointix2.png";
+import customdesainnet from "public/images/project/customdesainnet.png";
+import customdesainnet2 from "public/images/project/customdesainnet2.png";
+import regarmarketapi from "public/images/project/regarmarketapi.png";
+import regarmarketapi2 from "public/images/project/regarmarketapi2.png";
+import legal from "public/images/project/legal.png";
+import legal2 from "public/images/project/legal2.png";
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://regarmarket.com",
+    title: "Regarmarket",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+      "Platform e-commerce yang menjual produk custom dari Regarsport",
+    thumbnail: regarmarket,
+    images: [regarmarket, regarmarket2],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    slug: "regarmarket",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Regarmarket menyediakan berbagai produk custom seperti jersey,
+          jaket, celana, dan aksesoris lainnya yang dapat disesuaikan dengan
+          kebutuhan pelanggan. Dengan antarmuka yang user-friendly dan fitur
+          kustomisasi yang lengkap, Regarmarket memudahkan pelanggan untuk
+          mendesain produk sesuai keinginan mereka.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://tisb.id",
+    title: "TISB",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+      "TISB adalah platform analisis untuk pelanggan, yang di gunakan untuk mengelola bisnis mereka dengan lebih efisien.",
+    thumbnail: tisb,
+    images: [tisb, tisb2],
+    stack: ["Laravel", "Tailwindcss"],
+    slug: "tisb",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Platform ini berisi berbagai fitur analisis data yang membantu pelanggan
+          dalam mengambil keputusan bisnis yang lebih baik. Dengan antarmuka yang
+          intuitif dan laporan yang komprehensif, TISB memungkinkan pelanggan
+          untuk memantau kinerja bisnis mereka secara real-time dan mengidentifikasi
+          peluang pertumbuhan.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "https://regarcareer.com",
+    title: "RegarCareer",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+      "Platform job portal yang menghubungkan pencari kerja dengan perusahaan.",
+    thumbnail: regarcareer,
+    images: [regarcareer, regarcareer2],
+    stack: ["Laravel", "Bootstrap"],
+    slug: "regarcareer",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Regarcareer menyediakan berbagai fitur untuk memudahkan pencari kerja dalam
+          menemukan lowongan yang sesuai dengan keahlian dan minat mereka. Dengan
+          antarmuka yang user-friendly dan sistem pencarian yang canggih, Regarcareer
+          membantu pencari kerja untuk menjelajahi berbagai peluang karir dan
+          menghubungkan mereka dengan perusahaan yang sedang mencari talenta baru.
         </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    href: "https://pointix.web.id",
+    title: "Pointix",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
+      "Pointix adalah platform web yang digunakan untuk distributor barang dalam mengelola inventaris, pesanan, dan pelanggan mereka secara efisien.",
+    thumbnail: pointix,
+    images: [pointix, pointix2],
+    stack: ["Laravel", "Tailwindcss"],
+    slug: "pointix",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Pointix adalah aplikasi web yang dirancang khusus untuk distributor barang agar dapat
+          mengelola inventaris, pesanan, dan pelanggan mereka dengan lebih efisien.
+          Dengan fitur-fitur seperti pelacakan stok real-time, manajemen pesanan,
+          dan analisis penjualan, Pointix membantu distributor dalam mengoptimalkan
+          operasional bisnis mereka dan meningkatkan kepuasan pelanggan.
         </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://customdesain.net",
+    title: "CustomDesain",
+    description:
+      "CustomDesain adalah platform web untuk pengerjaan desain grafis sesuai permintaan pelanggan.",
+    thumbnail: customdesainnet,
+    images: [customdesainnet, customdesainnet2],
+    stack: ["Laravel", "Bootstrap"],
+    slug: "customdesain",
+    content: (
+      <div>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          CustomDesain adalah platform web yang memungkinkan pelanggan untuk memesan
+          desain grafis sesuai dengan kebutuhan mereka. Dengan berbagai pilihan layanan
+          desain seperti logo, brosur, poster, dan materi pemasaran lainnya, CustomDesain
+          menyediakan solusi desain yang profesional dan kreatif. Pelanggan dapat
+          berkomunikasi langsung dengan desainer untuk memastikan hasil akhir sesuai
+          dengan harapan mereka.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://api.regarmarket.id/",
+    title: "Sandbox Regarmarket API",
+    description:
+      "Platform API sandbox untuk integrasi dengan Regarmarket.",
+    thumbnail: regarmarketapi,
+    images: [regarmarketapi, regarmarketapi2],
+    stack: ["NodeJs", "ExpressJs"],
+    slug: "sandbox-regarmarket-api",
+    content: (
+      <div>
+        <p>
+          Adalah platform API sandbox yang dirancang untuk memudahkan pengembang dalam
+          mengintegrasikan aplikasi mereka dengan Regarmarket. Dengan menyediakan
+          lingkungan pengujian yang aman dan terisolasi, pengembang dapat mencoba
+          berbagai endpoint API, menguji fungsionalitas, dan memastikan integrasi
+          berjalan lancar sebelum diterapkan pada sistem produksi.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://legal.rsii.id/",
+    title: "Legal",
+    description:
+      "Platform manajemen dokumen legal perusahaan",
+    thumbnail: legal,
+    images: [legal, legal2],
+    stack: ["NodeJs", "ExpressJs", "VueJs"],
+    slug: "legal-rsii",
+    content: (
+      <div>
+        <p>
+          Adalah platform manajemen dokumen legal yang dirancang untuk membantu perusahaan
+          dalam mengelola berbagai dokumen hukum mereka secara efisien. Dengan fitur-fitur
+          seperti penyimpanan terpusat, pelacakan revisi, dan akses berbasis peran,
+          platform ini memastikan bahwa semua dokumen legal perusahaan terorganisir dengan baik
+          dan mudah diakses oleh pihak yang berwenang.
+        </p>
       </div>
     ),
   },
