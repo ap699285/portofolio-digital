@@ -19,7 +19,7 @@ import brominemedia2 from "public/images/project/brominemedia2.png";
 
 export const products = [
   {
-    href: "https://regarmarket.com",
+    href: "https://regarmarket.id",
     title: "Regarmarket",
     description:
       "Platform e-commerce yang menjual produk custom dari Regarsport",
