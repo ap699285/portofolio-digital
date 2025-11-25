@@ -65,6 +65,12 @@ export const TechStack = () => {
 
       className: "h-10 w-8",
     },
+    {
+      title: "MySQL",
+      src: "/images/logos/mysql.png",
+
+      className: "h-10 w-8",
+    },
   ];
   return (
     <div>

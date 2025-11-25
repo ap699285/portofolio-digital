@@ -20,6 +20,13 @@ export default function Home() {
         memiliki performa optimal, serta memberikan pengalaman pengguna yang baik,
         baik pada sisi frontend maupun backend.
       </Paragraph>
+      <Paragraph className="max-w-xl mt-4">
+        Ada beberapa framework dan teknologi yang sering saya gunakan dalam
+        pengembangan aplikasi, antara lain{" "}
+        <Highlight>React.js, Next.js, Node.js, Laravel dan Express.js</Highlight>.
+        Selain itu, saya juga memiliki pengalaman dengan berbagai database seperti{" "}
+        <Highlight>MongoDB, dan MySQL</Highlight>.
+      </Paragraph>
       <Heading
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"

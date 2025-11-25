@@ -12,6 +12,10 @@ import regarmarketapi from "public/images/project/regarmarketapi.png";
 import regarmarketapi2 from "public/images/project/regarmarketapi2.png";
 import legal from "public/images/project/legal.png";
 import legal2 from "public/images/project/legal2.png";
+import smansawur from "public/images/project/smansawur.png";
+import smansawur2 from "public/images/project/smansawur2.png";
+import brominemedia from "public/images/project/brominemedia.png";
+import brominemedia2 from "public/images/project/brominemedia2.png";
 
 export const products = [
   {
@@ -78,27 +82,6 @@ export const products = [
     ),
   },
   {
-    href: "https://pointix.web.id",
-    title: "Pointix",
-    description:
-      "Pointix adalah platform web yang digunakan untuk distributor barang dalam mengelola inventaris, pesanan, dan pelanggan mereka secara efisien.",
-    thumbnail: pointix,
-    images: [pointix, pointix2],
-    stack: ["Laravel", "Tailwindcss"],
-    slug: "pointix",
-    content: (
-      <div>
-        <p>
-          Pointix adalah aplikasi web yang dirancang khusus untuk distributor barang agar dapat
-          mengelola inventaris, pesanan, dan pelanggan mereka dengan lebih efisien.
-          Dengan fitur-fitur seperti pelacakan stok real-time, manajemen pesanan,
-          dan analisis penjualan, Pointix membantu distributor dalam mengoptimalkan
-          operasional bisnis mereka dan meningkatkan kepuasan pelanggan.
-        </p>
-      </div>
-    ),
-  },
-  {
     href: "https://customdesain.net",
     title: "CustomDesain",
     description:
@@ -142,6 +125,27 @@ export const products = [
     ),
   },
   {
+    href: "https://brominemedia.com/",
+    title: "Bromine Media",
+    description:
+      "Platform berita terkini seputar teknologi dan bisnis digital.",
+    thumbnail: brominemedia,
+    images: [brominemedia, brominemedia2],
+    stack: ["Laravel", "Bootstrap"],
+    slug: "bromine-media",
+    content: (
+      <div>
+        <p>
+          Adalah platform portal berita yang menyajikan informasi terkini seputar
+          dunia teknologi dan bisnis digital. Dengan berbagai artikel, ulasan,
+          dan wawancara eksklusif, Bromine Media bertujuan untuk menjadi sumber
+          terpercaya bagi para profesional dan penggemar teknologi dalam mengikuti
+          perkembangan terbaru di industri ini.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://legal.rsii.id/",
     title: "Legal",
     description:
@@ -158,6 +162,48 @@ export const products = [
           seperti penyimpanan terpusat, pelacakan revisi, dan akses berbasis peran,
           platform ini memastikan bahwa semua dokumen legal perusahaan terorganisir dengan baik
           dan mudah diakses oleh pihak yang berwenang.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://pointix.web.id",
+    title: "Pointix",
+    description:
+      "Pointix adalah platform web yang digunakan untuk distributor barang dalam mengelola inventaris, pesanan, dan pelanggan mereka secara efisien.",
+    thumbnail: pointix,
+    images: [pointix, pointix2],
+    stack: ["Laravel", "Tailwindcss"],
+    slug: "pointix",
+    content: (
+      <div>
+        <p>
+          Pointix adalah aplikasi web yang dirancang khusus untuk distributor barang agar dapat
+          mengelola inventaris, pesanan, dan pelanggan mereka dengan lebih efisien.
+          Dengan fitur-fitur seperti pelacakan stok real-time, manajemen pesanan,
+          dan analisis penjualan, Pointix membantu distributor dalam mengoptimalkan
+          operasional bisnis mereka dan meningkatkan kepuasan pelanggan.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://smansawur/",
+    title: "Smansawur",
+    description:
+      "Platform website resmi untuk SMAN 1 Wuryantoro",
+    thumbnail: smansawur,
+    images: [smansawur, smansawur2],
+    stack: ["Laravel", "Tailwindcss"],
+    slug: "smansawur",
+    content: (
+      <div>
+        <p>
+          Adalah platform website resmi yang dirancang untuk SMAN 1 Wuryantoro. Website ini
+          menyediakan informasi lengkap tentang sekolah, termasuk profil sekolah,
+          program akademik, kegiatan ekstrakurikuler, dan berita terbaru. Dengan
+          antarmuka yang menarik dan mudah dinavigasi, website ini bertujuan untuk
+          meningkatkan komunikasi antara sekolah, siswa, orang tua, dan masyarakat luas.
         </p>
       </div>
     ),
