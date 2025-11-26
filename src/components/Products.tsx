@@ -50,6 +50,16 @@ export const Products = () => {
                   </Paragraph>
                 </div>
                 <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
+                  {product.responsibility?.map((responsibility: string) => (
+                    <span
+                      key={responsibility}
+                      className="text-xs  md:text-xs lg:text-xs bg-gray-100 px-2 py-1 rounded-sm text-secondary"
+                    >
+                      {responsibility}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}

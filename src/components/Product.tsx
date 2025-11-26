@@ -6,6 +6,11 @@ import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import {
+  IconCheck,
+  IconCheckbox,
+  IconCircleCheckFilled,
+} from "@tabler/icons-react";
 
 export const SingleProduct = ({ product }: { product: Product }) => {
   const [activeImage, setActiveImage] = useState<StaticImageData | string>(
@@ -72,30 +77,60 @@ export const SingleProduct = ({ product }: { product: Product }) => {
       <div className="prose prose-sm md:prose-base max-w-none text-neutral-600">
         {product?.content}
       </div>
-
-      <a
-        href={product.href}
-        target="__blank"
-        className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-none transition ring-offset-gray-900 bg-gray-800 text-white shadow-lg shadow-black/20 sm:backdrop-blur-sm group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-auto origin-left"
-      >
-        Live Preview
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
+      <div className="mb-10">
+        <Heading
+          as="h5"
+          className="text-lg md:text-lg lg:text-lg text-emerald-500"
         >
-          <path d="M5 12l14 0"></path>
-          <path d="M13 18l6 -6"></path>
-          <path d="M13 6l6 6"></path>
-        </svg>
-      </a>
+          Fitur utama
+        </Heading>
+        
+        {product.features?.map((feature, index) => (
+          <Step key={feature}>{feature}</Step>
+        ))}
+      </div>
+
+      {!product.restricted ? (
+        <a
+          href={product.href}
+          target="__blank"
+          className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-none transition ring-offset-gray-900 bg-gray-800 text-white shadow-lg shadow-black/20 sm:backdrop-blur-sm group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-auto origin-left"
+        >
+          Live Preview
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
+          >
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
+        </a>) : (
+        <a
+          href="#"
+          className="inline-flex items-center gap-1 group/button rounded-full hover:scale-105 focus:outline-none transition ring-offset-gray-900 bg-gray-800 text-white shadow-lg shadow-black/20 sm:backdrop-blur-sm group-hover/button:bg-gray-50/15 group-hover/button:scale-105 focus-visible:ring-1 focus-visible:ring-offset-2 ring-gray-50/60 text-sm font-medium px-4 py-2 mt-auto origin-left"
+        >
+          Confidental
+        </a>)}
+    </div>
+  );
+};
+
+const Step = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <div className="flex space-x-1 items-start my-2">
+      <IconCircleCheckFilled className="h-3 w-4 mt-1 text-neutral-300" />
+      <Paragraph className="text-sm md:text-sm lg:text-sm">
+        {children}
+      </Paragraph>
     </div>
   );
 };

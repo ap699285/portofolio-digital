@@ -31,7 +31,7 @@ export default function Home() {
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
       >
-        Projek yang saya kerjakan:
+        Proyek yang saya kerjakan:
       </Heading>
       <Products />
       <TechStack />

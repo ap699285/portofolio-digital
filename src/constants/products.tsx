@@ -16,17 +16,27 @@ import smansawur from "public/images/project/smansawur.png";
 import smansawur2 from "public/images/project/smansawur2.png";
 import brominemedia from "public/images/project/brominemedia.png";
 import brominemedia2 from "public/images/project/brominemedia2.png";
+import { features } from "process";
 
 export const products = [
   {
     href: "https://regarmarket.id",
     title: "Regarmarket",
+    restricted: false,
     description:
       "Platform e-commerce yang menjual produk custom dari Regarsport",
     thumbnail: regarmarket,
     images: [regarmarket, regarmarket2],
     stack: ["Nextjs", "Tailwindcss"],
+    responsibility: ["Backend Developer"],
     slug: "regarmarket",
+    features: [
+      "Katalog Produk Custom",
+      "Desain Produk Interaktif",
+      "Proses Pemesanan Mudah",
+      "Integrasi Pembayaran Aman",
+      "3D Preview Produk",
+    ],
     content: (
       <div>
         <p>
@@ -42,12 +52,20 @@ export const products = [
   {
     href: "https://tisb.id",
     title: "TISB",
+    restricted: false,
     description:
-      "TISB adalah platform analisis untuk pelanggan, yang di gunakan untuk mengelola bisnis mereka dengan lebih efisien.",
+      "Platform analisis untuk pelanggan, yang di gunakan untuk mengelola bisnis mereka dengan lebih efisien.",
     thumbnail: tisb,
     images: [tisb, tisb2],
     stack: ["Laravel", "Tailwindcss"],
+    responsibility: ["Fullstack Developer"],
     slug: "tisb",
+    features: [
+      "Dashboard Analisis Data",
+      "Laporan Kinerja Bisnis",
+      "Pemantauan Real-time",
+      "Rekomendasi Strategi Bisnis",
+    ],
     content: (
       <div>
         <p>
@@ -63,12 +81,20 @@ export const products = [
   {
     href: "https://regarcareer.com",
     title: "RegarCareer",
+    restricted: false,
     description:
       "Platform job portal yang menghubungkan pencari kerja dengan perusahaan.",
     thumbnail: regarcareer,
     images: [regarcareer, regarcareer2],
     stack: ["Laravel", "Bootstrap"],
+    responsibility: ["Fullstack Developer"],
     slug: "regarcareer",
+    features: [
+      "Pencarian Lowongan Kerja",
+      "Filter Berdasarkan Kategori",
+      "Sistem ERP Lowongan Kerja",
+      "Notifikasi Email",
+    ],
     content: (
       <div>
         <p>
@@ -84,12 +110,20 @@ export const products = [
   {
     href: "https://customdesain.net",
     title: "CustomDesain",
+    restricted: true,
     description:
-      "CustomDesain adalah platform web untuk pengerjaan desain grafis sesuai permintaan pelanggan.",
+      "Platform web untuk pengerjaan desain grafis sesuai permintaan pelanggan.",
     thumbnail: customdesainnet,
     images: [customdesainnet, customdesainnet2],
     stack: ["Laravel", "Bootstrap"],
+    responsibility: ["Fullstack Developer"],
     slug: "customdesain",
+    features: [
+      "Layanan Desain Grafis",
+      "Komunikasi dengan Desainer",
+      "Revisi Desain",
+      "Sistem ERP Desain",
+    ],
     content: (
       <div>
         <p>
@@ -106,12 +140,20 @@ export const products = [
   {
     href: "https://api.regarmarket.id/",
     title: "Sandbox Regarmarket API",
+    restricted: true,
     description:
       "Platform API sandbox untuk integrasi dengan Regarmarket.",
     thumbnail: regarmarketapi,
     images: [regarmarketapi, regarmarketapi2],
     stack: ["NodeJs", "ExpressJs"],
+    responsibility: ["Database Design", "Backend Developer"],
     slug: "sandbox-regarmarket-api",
+    features: [
+      "Lingkungan Pengujian Terisolasi",
+      "Dokumentasi API Lengkap",
+      "Simulasi Endpoint API",
+      "Pengujian Fungsionalitas Integrasi",
+    ],
     content: (
       <div>
         <p>
@@ -127,12 +169,20 @@ export const products = [
   {
     href: "https://brominemedia.com/",
     title: "Bromine Media",
+    restricted: false,
     description:
       "Platform berita terkini seputar teknologi dan bisnis digital.",
     thumbnail: brominemedia,
     images: [brominemedia, brominemedia2],
     stack: ["Laravel", "Bootstrap"],
+    responsibility: ["Fullstack Developer"],
     slug: "bromine-media",
+    features: [
+      "Berita Teknologi Terkini",
+      "Ulasan Produk Digital",
+      "Wawancara Eksklusif",
+      "Kategori Berita Beragam",
+    ],
     content: (
       <div>
         <p>
@@ -148,12 +198,20 @@ export const products = [
   {
     href: "https://legal.rsii.id/",
     title: "Legal",
+    restricted: true,
     description:
       "Platform manajemen dokumen legal perusahaan",
     thumbnail: legal,
     images: [legal, legal2],
     stack: ["NodeJs", "ExpressJs", "VueJs"],
+    responsibility: ["Database Design", "Backend Developer", "Frontend Developer"],
     slug: "legal-rsii",
+    features: [
+      "Penyimpanan Dokumen Terpusat",
+      "Pelacakan Revisi Dokumen",
+      "Akses Berbasis Peran",
+      "Notifikasi dan Pengingat",
+    ],
     content: (
       <div>
         <p>
@@ -169,12 +227,20 @@ export const products = [
   {
     href: "https://pointix.web.id",
     title: "Pointix",
+    restricted: false,
     description:
-      "Pointix adalah platform web yang digunakan untuk distributor barang dalam mengelola inventaris, pesanan, dan pelanggan mereka secara efisien.",
+      "Platform web yang digunakan untuk distributor barang dalam mengelola inventaris, pesanan, dan pelanggan mereka secara efisien.",
     thumbnail: pointix,
     images: [pointix, pointix2],
     stack: ["Laravel", "Tailwindcss"],
+    responsibility: ["Fullstack Developer"],
     slug: "pointix",
+    features: [
+      "Manajemen Inventaris",
+      "Pelacakan Pesanan",
+      "Manajemen Pelanggan",
+      "Laporan Penjualan",
+    ],
     content: (
       <div>
         <p>
@@ -190,12 +256,20 @@ export const products = [
   {
     href: "https://smansawur/",
     title: "Smansawur",
+    restricted: false,
     description:
       "Platform website resmi untuk SMAN 1 Wuryantoro",
     thumbnail: smansawur,
     images: [smansawur, smansawur2],
     stack: ["Laravel", "Tailwindcss"],
+    responsibility: ["Fullstack Developer"],
     slug: "smansawur",
+    features: [
+      "Informasi Profil Sekolah",
+      "Program Akademik",
+      "Kegiatan Ekstrakurikuler",
+      "Berita Terbaru",
+    ],
     content: (
       <div>
         <p>

@@ -23,13 +23,13 @@ export default function Projects() {
 
       <Products />
       <Paragraph className="max-w-xl mt-10">
-        Selain projek di atas saya juga mengembangkan beberapa projek pribadi dan
-        berkontribusi pada projek open source. Saya percaya bahwa belajar dan
+        Selain proyek di atas saya juga mengembangkan beberapa proyek pribadi dan
+        berkontribusi pada proyek open source. Saya percaya bahwa belajar dan
         berbagi pengetahuan adalah kunci untuk pertumbuhan dalam dunia
         pengembangan perangkat lunak.
       </Paragraph> 
       <Paragraph className="max-w-xl mt-4">
-        Seperti projek AI dengan <Highlight>Python</Highlight> berbasis machine learning untuk
+        Seperti proyek AI dengan <Highlight>Python</Highlight> berbasis machine learning untuk
         pengenalan gambar serta beberapa library dan tool lainnya.
       </Paragraph>
     </Container>
